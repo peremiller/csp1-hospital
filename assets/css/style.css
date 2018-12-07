@@ -1,0 +1,112 @@
+#index{
+	background: url("../img/landing.jpeg") no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Biryani', sans-serif;
+	height:"100%";
+}
+
+#indexpage{
+	height:100px;
+}
+
+.because{
+	padding:5px;
+	opacity: 0.5;
+	filter: alpha(opacity=100); /* For IE8 and earlier */
+	position:relative;
+	top:10px;
+	color:black;
+}
+
+.because2{
+	position:relative;
+	top:-195px;
+	color:black;
+}
+
+#because,#because2{
+	color:black;
+	padding-top: 4%;
+}
+
+
+.up{
+	position:relative;
+	top:-75px;
+}
+
+#indexbutton{
+	width:150px;
+}
+
+#indexcentercol{
+	height:300px;
+}
+
+#lp,#dh{
+	color:black;
+	background-color: transparent;
+}
+
+#deliverex{
+	position:relative;
+	top:-75px;
+}
+
+#indexlogo{
+	background-color:white;
+	width:100%;
+	position:relative;
+	top:55px;
+	border-width: 5px;
+	border-color: white;
+}
+
+#whitespread{
+	height:200%;
+	width:100%;
+	background-color: white;
+	position:relative;
+	opacity: 0.5;
+	filter: alpha(opacity=50); 
+}
+
+.whitevertical{
+	background-color: white;
+	height:100%;
+	width:100%;
+	/*  opacity: 0.5;
+	filter: alpha(opacity=50);*/
+}
+
+#visitus{
+	position: relative;
+	top:15px;
+}
+
+#homelogo{
+height:45px;
+width:128px;
+position:relative;
+top:8px;
+left:-668px;}
+
+#navbarhome{
+	height:100%;
+	width:100%;
+	background-color: lightgrey;
+}
+
+#carouselhome{
+	height:300px;
+}
+
+/*For Mobile
+@media only screen and (max-width: 400px){}
+
+For Tablet
+@media only screen and (min-width: 401px) and (max-width: 960px){}*/
