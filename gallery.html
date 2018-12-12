@@ -1,9 +1,232 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<title>Las Pinas Doctor's Hospital</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+<!-- 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
+-->
+<script type="text/javascript" src="assets/js/popper.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css?family=Biryani" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="assets/img/cross.ico">
+<script type="text/javascript" src="assets/js/util.js"></script>
+<script type="text/javascript" src="assets/js/util1.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
 <body>
+
+	<div class="hr">
+		
+	</div>
+	<nav class="navbar navbar-expand-lg navbar-dark">
+		<div class="container-top brand"><!-- start of nav -->
+			<a href="home.html"><img src="assets/img/logo.jpg" id="homelogo"></a>
+		</div>
+		
+		<button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbar-nav">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbar-nav">
+			<ul class="nav navbar justify-content-end ml-auto" id="navbarhome">
+				<li class="nav-item">
+					<a class="nav-link active" href="home.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="gallery.html">Gallery</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact Us</a>
+				</li>
+			</ul>
+
+		</div><!-- end of nav -->
+	</nav>
+	<div class="hr"></div>
+
+	<svg height="502" width="36" id="wanhundred">
+		<polygon points="0 242,30 205,32 0,0 0" style="fill:darkgreen;stroke:darkgreen;stroke-width:1" />
+		<polygon points="0 422,30 394,32 217,0 182" style="fill:white;stroke:darkgreen;stroke-width:1" />
+		<polygon points="0 502,30 334,32 444,0 354" style="fill:darkgreen;stroke:darkgreen;stroke-width:1" />
+	</svg>
+
+	<h1 class="text-center">Gallery</h1>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<img height="196px" width="350px" src="assets/img/homecar2.jpg.jpg" data-toggle="modal" data-target="#humkar1">
+				<div id="homepagedown"></div>
+				<img height="196px" width="350px" src="assets/img/homecar1.jpg" data-toggle="modal" data-target="#humkar2">
+			</div>
+			<div class="col-4">
+				<img height="196px" width="350px" src="assets/img/homecar3.jpg" data-toggle="modal" data-target="#humkar3">
+				<div id="homepagedown"></div>
+				<img height="196px" width="350px" src="assets/img/homecar4.jpg" data-toggle="modal" data-target="#humkar4">
+			</div>
+			<div class="col-4">
+				<img height="196px" width="350px" src="assets/img/homecar5.jpg" data-toggle="modal" data-target="#humkar5">
+				<div id="homepagedown"></div>
+				<img height="196px" width="350px" src="assets/img/homecar6.jpg" data-toggle="modal" data-target="#humkar6">
+			</div>
+		</div>
+
+		<div class="modal fade" id="humkar1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Reception</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body modal-content">
+						<img src="assets/img/homecar2.jpg.jpg" style="height:400px; width="800px">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal" disabled="true">Previous</button>
+						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#humkar2">Next</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="modal fade" id="humkar2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">CT Scan</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body modal-content">
+						<img src="assets/img/homecar1.jpg" style="height:400px; width="800px">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#humkar1">Previous</button>
+						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#humkar3">Next</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="modal fade" id="humkar3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Consultation Room</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body modal-content">
+						<img src="assets/img/homecar3.jpg" style="height:400px; width="800px">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#humkar2">Previous</button>
+						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#humkar4">Next</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="modal fade" id="humkar4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Operation Room</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body modal-content">
+						<img src="assets/img/homecar4.jpg" style="height:400px; width="800px">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#humkar3">Previous</button>
+						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#humkar5">Next</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="humkar5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Semi-Private Ward</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body modal-content">
+						<img src="assets/img/homecar5.jpg" style="height:400px; width="800px">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#humkar4">Previous</button>
+						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#humkar6">Next</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="modal fade" id="humkar6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Kid-Friendly Rooms</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body modal-content">
+						<img src="assets/img/homecar6.jpg" style="height:400px; width="800px">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#humkar5">Previous</button>
+						<button type="button" class="btn btn-secondary"  disabled="true">Next</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="homepagedown"></div>
+
+	</div>
+
+
+	<footer class="putter">
+		Copyright 2018
+	</footer>
 
 </body>
 </html>
