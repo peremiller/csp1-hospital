@@ -11,6 +11,9 @@
 	height:"100%";
 }
 
+
+
+
 /*For Index Landing Page*/
 #indexpage{
 	height:100px;
@@ -515,7 +518,7 @@ blink {
 
 		/*For Index Landing Page*/
 		#index{
-			background: url("../img/landing.jpeg") no-repeat center center fixed;
+			background: url("../img/landing.jpeg") center center fixed;
 			background-size: cover;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
@@ -688,7 +691,7 @@ blink {
 
 			/*For Index Landing Page*/
 			#index{
-				background: url("../img/landing.jpeg") no-repeat center center fixed;
+				background: url("../img/landing.jpeg")  center center fixed;
 				background-size: cover;
 				-webkit-background-size: cover;
 				-moz-background-size: cover;
