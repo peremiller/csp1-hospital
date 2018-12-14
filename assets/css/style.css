@@ -520,6 +520,8 @@ blink {
 	margin-right: 5px;
 }
 
+.zoom-in {cursor: zoom-in;}
+
 	/*For Mobile*/
 	@media only screen and (max-width: 400px){
 
