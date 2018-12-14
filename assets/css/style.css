@@ -129,6 +129,8 @@
 		background-color:#487669;
 		width:100%;
 		padding:10px;
+	/*	position:fixed;*/
+		bottom:0;
 
 	}
 
@@ -213,6 +215,8 @@
 
 	#putter{
 		z-index: 200;
+		bottom:0;
+		position:absolute;
 	}
 
 	.modal {
@@ -652,10 +656,10 @@
 				height:50px;
 				color: white;
 				line-height: 50px;
-				background-color:darkgreen;
+				background-color:#487669;
 				width:100%;
 				padding:10px;
-				
+
 
 			}
 
