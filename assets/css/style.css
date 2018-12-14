@@ -513,6 +513,11 @@ blink {
   border-top: none;
 }
 
+#contactpad{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
 	/*For Mobile*/
 	@media only screen and (max-width: 400px){
 
