@@ -611,6 +611,8 @@ blink {
 		#visitus{
 			position: relative;
 			top:-145px;
+			border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
 
 		}
 
@@ -777,7 +779,8 @@ blink {
 			#visitus{
 				position: relative;
 				top:-160px;
-
+	border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
 			}
 
 		}
