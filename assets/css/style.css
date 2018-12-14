@@ -89,6 +89,8 @@
 #visitus{
 	position: relative;
 	top:-155px;
+	border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
 }
 
 /*For Home Page*/
