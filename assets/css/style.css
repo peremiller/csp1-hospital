@@ -527,6 +527,10 @@
 
 	.zoom-in {cursor: zoom-in;}
 
+	.poly{
+		background-color:#487669;
+	}
+
 	/*For Mobile*/
 	@media only screen and (max-width: 400px){
 
