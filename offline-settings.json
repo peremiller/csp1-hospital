@@ -1,0 +1,5 @@
+{
+  "app": "csp1-hospital",
+  "limits": "Saved hospital information works offline. Live maps, phone calls and messages need their services.",
+  "spa": false
+}
