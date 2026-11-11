@@ -107,18 +107,18 @@
     });
   }
 
-  /* contact form (static site — friendly confirmation, no backend) */
+  /* Static demonstration: never claim a message was delivered without a backend. */
   var form = document.querySelector("#contact-form");
   if (form) {
     form.addEventListener("submit", function (e) {
       e.preventDefault();
-      var note = document.querySelector(".form-note");
-      var name = (document.querySelector("#cf-name").value || "").trim();
-      note.textContent = "Thank you" + (name ? ", " + name : "") +
-        "! Your message has been noted. For urgent concerns, our emergency room is open 24/7.";
+      var note = form.querySelector(".form-note");
+      if (!note) return;
+      note.textContent = "Not sent: this static website has no connected message-delivery service. " +
+        "Your entries remain on this page and have not been submitted. " +
+        "Please use a verified official hospital contact channel instead.";
       note.classList.add("show");
-      form.reset();
-      note.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      note.scrollIntoView({ behavior: "auto", block: "nearest" });
     });
   }
 })();
