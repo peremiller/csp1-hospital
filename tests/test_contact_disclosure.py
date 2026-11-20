@@ -23,6 +23,17 @@ class ContactDisclosureTests(unittest.TestCase):
                 self.assertIn('href="contact.html"', text)
                 self.assertIn("Contact options", text)
 
+    def test_about_and_gallery_do_not_promise_booking_or_message_delivery(self):
+        for name in ("about.html", "gallery.html"):
+            with self.subTest(name=name):
+                text = (ROOT / name).read_text(encoding="utf-8")
+                self.assertIn('href="contact.html"', text)
+                self.assertIn("Contact options", text)
+                self.assertNotIn("Book a Visit", text)
+                self.assertNotIn("Send us a message", text)
+        about = (ROOT / "about.html").read_text(encoding="utf-8")
+        self.assertNotIn("reach out and our team will be glad to help", about)
+
     def test_no_submission_or_storage_feature_was_removed(self):
         text = (ROOT / "contact.html").read_text(encoding="utf-8")
         for field in ("name", "email", "phone", "message"):
