@@ -4,6 +4,8 @@ on:
     paths:
       - 'contact.html'
       - 'home.html'
+      - 'about.html'
+      - 'gallery.html'
       - 'tests/test_contact_disclosure.py'
       - '.github/workflows/csp-content-qa.yml'
   workflow_dispatch:
