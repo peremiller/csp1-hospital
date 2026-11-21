@@ -34,6 +34,13 @@ class ContactDisclosureTests(unittest.TestCase):
         about = (ROOT / "about.html").read_text(encoding="utf-8")
         self.assertNotIn("reach out and our team will be glad to help", about)
 
+    def test_every_page_footer_links_to_truthful_contact_options(self):
+        for name in ("home.html", "about.html", "gallery.html", "contact.html"):
+            with self.subTest(page=name):
+                text = (ROOT / name).read_text(encoding="utf-8")
+                self.assertIn('href="contact.html">Contact options →</a>', text)
+                self.assertNotIn("Send us a message →", text)
+
     def test_no_submission_or_storage_feature_was_removed(self):
         text = (ROOT / "contact.html").read_text(encoding="utf-8")
         for field in ("name", "email", "phone", "message"):
